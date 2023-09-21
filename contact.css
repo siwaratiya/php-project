@@ -1,0 +1,85 @@
+ body{
+  }
+
+
+ #bloc-page{ width:900px;
+            margin:auto; 
+         }
+ section ,nav a ,footer h4{
+        font-family: dayrom , serif;
+        font-weight:normal;
+        text-transform: center;
+      }  
+ header { display:flex; 
+          
+          align-items:flex-end;
+        }
+     
+#image-principale{
+        display-flex;
+       
+        position: relative;
+      }
+
+
+ nav ul {
+  
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:url('dos/pp.png');
+}
+
+    
+ nav  li{   
+  float:  left;
+
+    text-align: center;
+}
+
+nav li a {
+
+        
+    color: black;
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
+font-size: 1.9em;
+}
+
+nav  li a:hover {
+    background-color: pink;
+}
+form{ 
+  height:200px;
+     text-align: center;
+    position: relative;
+    
+    box-shadow:  0px 2px 5px #1C1a19;
+    margin-right: 400px;
+    margin-left: 400px;
+    padding: 60px;
+  }
+  input:hover{color:grey;}
+footer{display:flex;
+        background-color: #FFC0CB;}
+
+footer a{ 
+         padding: 5px;
+        text-decoration: none;}
+footer h4{
+
+margin: 50px;
+font-weight:normal; }
+footer a:hover{color :white;}
+
+ footer ul h4{text-align: center;}
+
+}
+#contact{
+
+    
+
+}
+       

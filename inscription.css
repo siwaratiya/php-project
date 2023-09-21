@@ -1,0 +1,26 @@
+body{
+	font-family:monospace;
+}
+h1{
+	margin-top:2em;
+	text-align:center;
+	border-bottom:solid black 10px;
+	background-color:black;
+}
+#main{
+	padding:50px;
+}
+legend{
+	text-transform:uppercase;
+}
+label{
+Font-weight:bold; 
+display:block; 
+width:200px; 
+float:left; 
+padding-right:1%;
+}
+#connaissance
+{color:red;
+background-color:url('dos/rose.jpg');
+}

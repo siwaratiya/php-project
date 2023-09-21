@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="inscription.css"/>
+        <link rel="stylesheet" type="text/css" href="acceuil.css"/>
+        <title> formulaire </title>
+    </head>
+    <body>
+        
+            <div id="bloc-page">
+                <header>
+                <div id="image principale">
+                    <a href ="inscription.html"><img src="image/photo.jpg" id="imag1"/></a>
+                </div>
+            </div>
+            <nav> 
+                <ul> 
+                    <li><a href="index.html"> acceuil </a></li>
+                    <li><a href="qui somme-nous.html"> qui somme-nous</a></li>
+                    <li><a href="referance.htm"> referance</a></li>
+                    <li><a href="contacter.htm"> contacter </a></li>
+                    <li><a href="inscription.htm"> inscription </a></li>
+                     <li><a href="login.php"> Connexion </a></li>
+                </ul>
+            </nav>
+        </header>
+    <center><font color="black" size="10" face="area">Fiche d'inscription:</font></center><BR><BR>
+    <form method="post" action="code.php">
+    <FIELDSET id="main">
+        <LEGEND>Informations personnelles</LEGEND>
+        <label><font size="4" color="black">Nom : </font></label>
+        <INPUT name="nom" type="text" tabindex="1"><br><br>
+        <label><font size="4" color="black">Prenom : </font></label>
+        <INPUT name="prenom" type="text" tabindex="2"><br><br>
+        <label><font size="4" color="black">Cin : </font></label>
+        <INPUT name="cin" type="text" tabindex="3"><br><br>
+        <label><font size="4" color="black">date de naissance: </font></label>
+        <INPUT name="ddn" type="text" tabindex="3"><br><br>
+        <label><font size="4" color="black">age: </font></label>
+        <INPUT name="age" type="text" tabindex="3"><br><br>
+        <label><font size="4" color="black">niveaux d etude: </font></label>
+        <select name="choix" size="1">
+            <option value="3" selected> bac+3</option>
+            <option value="4" selected> bac+4</option>
+            <option value="6" selected> bac+6</option></select><br><br>
+        <label><font size="4" color="black">Moyenne de bac: </font></label>
+        <INPUT name="moy" type="text" tabindex="3"><br><br>
+        <label><font size="4" color="black">Discipline(s) de specialite: </font></label>
+        <INPUT name="specialite" type="text" tabindex="3"><br><br>
+        <label><font size="4" color="black">Domaine(s)de specialite:</font></label>
+        <INPUT name="domaine" type="text" tabindex="3"><br><br>
+        <label><font size="4" color="black">langue(s) pratiquee(s): </font></label>
+        <INPUT name="lang" type="text" tabindex="3"><br><br>
+        <label><font size="4" color="black">adresse electronique: </font></label>
+        <INPUT name="adresse" type="text" tabindex="3"><br><br>
+        <label><font size="4" color="black">Mot de passe: </font></label>
+        <INPUT name="pwd" type="password" tabindex="3"><br><br>
+    </FIELDSET>
+    <FIELDSET>
+        <LEGEND><font size="4" color="black">Venez-vous passer un entretin ecrite ou orale ?</font></LEGEND>
+        <INPUT name="h" 
+               type="checkbox" 
+               value="ecrite" tabindex="20"> entretin ecrite<br><br>
+        <INPUT name="h" 
+               type="checkbox" 
+               value="orale" tabindex="21">entretin orale<br><br>
+        <input type="submit" value="valider" name="add"><input type="reset" value="annuler">
+    </FIELDSET>
+        </form>
+</body>
+</html >

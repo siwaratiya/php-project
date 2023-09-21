@@ -1,0 +1,148 @@
+body{
+  
+}
+#bloc-page{ width:900px;
+            margin:auto; }
+ section ,nav a ,footer h4{
+        font-family: dayrom , serif;
+        font-weight:normal;
+        text-transform: center;
+      }  
+ header { display:flex; 
+          
+          align-items:flex-end;
+        }
+     
+#image-principale{ width: 800px;
+        display-flex;
+       
+        position: relative;
+
+ }
+
+ nav ul {
+ background:url('dos/rose.jpg');
+    
+    list-style-type: none;
+   
+    overflow: hidden;
+   
+}
+
+    
+ nav  li{   
+  float:  left;
+font-size: 1.9em;
+    text-align: center;
+}
+
+nav li a {
+   
+        
+    color: black;
+    text-align: center;
+    padding: 40px;
+    text-decoration: none;
+}
+
+nav  li a:hover {
+    background-color: #FFC0CB ;
+}
+#top-compte{
+      display: none;
+    }
+#baniére{
+    
+    margin-top :15px;
+    height: 499px;
+    border-radius:0px;
+    position:relative;
+    box-shadow:0px 4px 4px #1C1a19;
+
+     animation: anim 10s infinite;
+}
+section{
+        display:flex;
+        margin-bottom:20px;}
+aside{background: pink;
+     height: 201px;
+   
+}
+
+#media{padding: 60px;}
+#mail{float: right ; }
+
+
+input{
+  border: 4px solid #FFFF00  ;
+   margin-left: 200px;
+   margin-right: 200px;
+  
+ }
+
+ button{
+      margin-right: 199px;}
+ 
+ input:hover
+ {color:pink; }
+
+   #top-column{  margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit; }
+
+  #slider_row  {
+    padding: 0;
+}
+.col-xs-12 {
+    width: 100%;
+}
+
+
+ 
+
+
+    
+  
+
+    
+footer{display:flex;
+        background-color: pink;}
+
+footer a{ 
+         padding: 5px;
+        text-decoration: none;}
+footer h4{
+
+margin: 50px;
+font-weight:normal; }
+footer a:hover{color : #FFFFFF;}
+
+ footer ul h4{text-align: center;}
+ 
+
+
+  
+@keyframes anim {
+    0%{ background: url('dos/1.png'); }
+	 100%{background: url('dos/12.png');}
+     50%{ background: url('dos/25.png'); }
+   70%{background: url('dos/26.png');}
+	 80%{background: url('dos/27.png');}
+	  100%{background: url('dos/28.png');}
+ }
+
+
+ @keyframes am {
+  0%{left:0;}
+  100%{left:-200%;}
+
+ }
+ @keyframes an{
+  from,11%,to{margin-left:-300px;}
+  15%,25%{margin-left:-600px;}
+  30%,41%{margin-left:-900px;}
+  45%,56%{margin-left:-1200px;}
+  65%,76%{margin-left:-1500px;}
+  
+}

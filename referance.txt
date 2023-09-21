@@ -1,0 +1,6 @@
+<html>
+<frameset rows="20%,80%"> 
+<li> <A HREF="index.htm">Retour</A></li>
+     <frame src="index.htm">
+</frameset>
+</html>
